@@ -1,7 +1,7 @@
-from constants import COLOR_COEFFICIENTS, PART_COEFFICIENTS, BASE_PRICE
+from constants import COLOR_COEFFICIENTS, PART_COEFFICIENTS, BASE_PRICE # type: ignore
 
 class PaintingCostCalculator:
-    def init(self):
+    def __init__(self):
         self.color_coefficients = COLOR_COEFFICIENTS
         self.part_coefficients = PART_COEFFICIENTS
         self.base_price = BASE_PRICE
